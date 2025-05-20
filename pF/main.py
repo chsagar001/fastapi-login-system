@@ -6,7 +6,6 @@ from pF.models import Base, User
 
 app = FastAPI()
 
-# CORS Middleware
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
